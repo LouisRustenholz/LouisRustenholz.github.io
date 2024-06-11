@@ -39,7 +39,9 @@ verification and safety.
 I am currently involved in a project on **automated inference of energy
 consumption of programs and systems**, with applications in energy
 transparency/audit, energy-aware development, verification and optimisation.
-Among others, this builds upon the [**ENTRA project**](http://entraproject.ruc.dk/).
+Among others, it builds upon the [ENTRA project](http://entraproject.ruc.dk/)
+and work performed in the context of
+[CiaoPP](https://ciao-lang.org/ciao/build/doc/ciaopp.html/).
 My current work focuses on new static cost analysis frameworks, aiming
 to take into account more **fine-grained cost models** (e.g. closer to bare
 metal, taking into abstract information on hardware state and other low-level
