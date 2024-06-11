@@ -7,3 +7,9 @@
 
 "Vision":
   color: "#009f36"
+
+"Book":
+  color: green
+
+"Conference Paper":
+  color: light blue

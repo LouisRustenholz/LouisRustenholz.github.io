@@ -72,15 +72,32 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- All papers -->
-    {% if page.all_papers %}
-      <h2 id="publications">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
-      </h2>
-      <!-- Copied from publications.md. Would be nice to see if this can be done automatically -->
+    <!-- Main papers -->
+    {% if page.main_papers %}
+      <h2 id="publications"> Journal and Conference Publications </h2>
       <div class="publications">
 	{% bibliography %}
       </div>
     {% endif %}
+
+
+    <!-- Service -->
+    {% if page.service %}
+      <h2 id="service"> Service </h2>
+      [...]
+    {% endif %}
+
+
+    <!-- Service -->
+    {% if page.extra_papers %}
+      <h2 id="other_works"> Other Research Projects </h2>
+
+      This section includes ...
+      
+      <div class="publications">
+	{% bibliography --file extra_works %}
+      </div>
+    {% endif %}
+
   </article>
 </div>

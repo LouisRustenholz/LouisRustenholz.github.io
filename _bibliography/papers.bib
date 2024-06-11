@@ -1,113 +1,54 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@online{order-recsolv-tmp,
+  author={Louis Rustenholz and Pedro López-García and José F.~Morales and Manuel V.~Hermenegildo},
+  title =        {{A}n {O}rder {T}heory {F}ramework of {R}ecurrence {E}quations for {S}tatic {C}ost {A}nalysis – {D}ynamic {I}nference of {N}on-{L}inear {I}nequality {I}nvariants},
+  institution =  {IMDEA Software Institute and Technical University of Madrid (UPM)},
+  year =         2024,
+  month =        {May},
+  note = {Currently under review.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
+@misc{mlrec-tplp2024-preprint,
+  title={{A} {M}achine {L}earning-based {A}pproach for {S}olving {R}ecurrence {R}elations and its use in {C}ost {A}nalysis of {L}ogic {P}rograms},
+  author={Louis Rustenholz and Maximiliano Klemen and Miguel Ángel Carreira-Perpiñán and Pedro López-García},
+  year={2024},
   month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+  eprint={2405.06972},
+  archivePrefix={arXiv},
+  primaryClass={cs.PL},
+  url={https://arxiv.org/abs/2405.06972},
+  pdf={https://arxiv.org/pdf/2405.06972/},
+  arxiv={https://arxiv.org/abs/2405.06972/},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  note={Under consideration for publication in {TPLP}.},
+  abstract={Automatic static cost analysis infers information about the resources used by programs without actually running them with concrete data, and presents such information as functions of input data sizes. Most of the analysis tools for logic programs (and many for other languages), as CiaoPP, are based on setting up recurrence relations representing (bounds on) the computational cost of predicates, and solving them to find closed-form functions. Such recurrence solving is a bottleneck in current tools: many of the recurrences that arise during the analysis cannot be solved with state-of-the-art solvers, including Computer Algebra Systems (CASs), so that specific methods for different classes of recurrences need to be developed. We address such a challenge by developing a novel, general approach for solving arbitrary, constrained recurrence relations, that uses machine-learning (sparse-linear and symbolic) regression techniques to guess a candidate closed-form function, and a combination of an SMT-solver and a CAS to check if it is actually a solution of the recurrence. Our prototype implementation and its experimental evaluation within the context of the CiaoPP system show quite promising results. Overall, for the considered benchmarks, our approach outperforms state-of-the-art cost analyzers and recurrence solvers, and solves recurrences that cannot be solved by them.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{relunn-by-trop-sas21,
+   abbr={Conference Paper},
+   author="Goubault, Eric
+   and Palumby, S{\'e}bastien
+   and Putot, Sylvie
+   and Rustenholz, Louis
+   and Sankaranarayanan, Sriram",
+   editor="Dr{\u{a}}goi, Cezara
+   and Mukherjee, Suvam
+   and Namjoshi, Kedar",
+   title="Static Analysis of ReLU Neural Networks with Tropical Polyhedra",
+   booktitle="Proceedings of the 28th Static Analysis Symposium (SAS 2021)",
+   year="2021",
+   month={October},
+   publisher="Springer International Publishing",
+   address="Cham",
+   pages="166--190",
+   pdf={https://arxiv.org/pdf/2108.00893},
+   arxiv={https://arxiv.org/abs/2108.00893},
+   video={https://www.youtube.com/watch?v=O9DXz_p2RI8},
+   video2={https://www.youtube.com/watch?v=ZqHVQvKkUHw},
+   bibtex_show={true},
+   abstract="This paper studies the problem of range analysis for feedforward neural networks, which is a basic primitive for applications such as robustness of neural networks, compliance to specifications and reachability analysis of neural-network feedback systems. Our approach focuses on ReLU (rectified linear unit) feedforward neural nets that present specific difficulties: approaches that exploit derivatives do not apply in general, the number of patterns of neuron activations can be quite large even for small networks, and convex approximations are generally too coarse. In this paper, we employ set-based methods and abstract interpretation that have been very successful in coping with similar difficulties in classical program verification. We present an approach that abstracts ReLU feedforward neural networks using tropical polyhedra. We show that tropical polyhedra can efficiently abstract ReLU activation function, while being able to control the loss of precision due to linear computations. We show how the connection between ReLU networks and tropical rational functions can provide approaches for range analysis of ReLU neural networks. We report on a preliminary evaluation of our approach using a prototype implementation.",
+   isbn="978-3-030-88806-0"
 }

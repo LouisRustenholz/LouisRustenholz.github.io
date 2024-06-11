@@ -57,19 +57,40 @@
           </li>
 
 	  <!-- Selected Publications (local) -->
+	  {% if page.selected_papers %}
           <li class="nav-item">
             <a class="nav-link" href="{{ '/#selected_publications' | relative_url }}">
               selected publications
             </a>
           </li>
+	  {% endif %}
 
 	  <!-- Publications (local) -->
+	  {% if page.main_papers %}
           <li class="nav-item">
             <a class="nav-link" href="{{ '/#publications' | relative_url }}">
               publications (local)
             </a>
           </li>
+	  {% endif %}
 
+	  <!-- Service -->
+	  {% if page.service %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/#service' | relative_url }}">
+              service
+            </a>
+          </li>
+	  {% endif %}
+
+	  <!-- Extra Publications -->
+	  {% if page.extra_papers %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/#other_works' | relative_url }}">
+              [...]
+            </a>
+          </li>
+	  {% endif %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -130,16 +151,16 @@
               </button>
             </li>
           {% endif %}
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          {% endif %}
+          <!-- {% if site.enable_darkmode %} -->
+          <!--   <\!-- Toogle theme mode -\-> -->
+          <!--   <li class="toggle-container"> -->
+          <!--     <button id="light-toggle" title="Change theme"> -->
+          <!--       <i class="ti ti-sun-moon" id="light-toggle-system"></i> -->
+          <!--       <i class="ti ti-moon-filled" id="light-toggle-dark"></i> -->
+          <!--       <i class="ti ti-sun-filled" id="light-toggle-light"></i> -->
+          <!--     </button> -->
+          <!--   </li> -->
+          <!-- {% endif %} -->
         </ul>
       </div>
     </div>
