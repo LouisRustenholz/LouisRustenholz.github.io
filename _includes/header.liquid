@@ -56,6 +56,21 @@
             </a>
           </li>
 
+	  <!-- Selected Publications (local) -->
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/#selected_publications' | relative_url }}">
+              selected publications
+            </a>
+          </li>
+
+	  <!-- Publications (local) -->
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/#publications' | relative_url }}">
+              publications (local)
+            </a>
+          </li>
+
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}

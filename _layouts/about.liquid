@@ -66,10 +66,21 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h2 id="selected_publications">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- All papers -->
+    {% if page.all_papers %}
+      <h2 id="publications">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+      </h2>
+      <!-- Copied from publications.md. Would be nice to see if this can be done automatically -->
+      <div class="publications">
+	{% bibliography %}
+      </div>
     {% endif %}
   </article>
 </div>
