@@ -13,3 +13,12 @@
 
 "Conference Paper":
   color: light blue
+
+"Internship":
+  color: grey
+
+"Preprint":
+  color: grey
+
+"Misc":
+  color: brown

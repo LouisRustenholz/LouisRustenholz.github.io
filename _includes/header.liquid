@@ -40,6 +40,8 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
+      {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+      {% assign main_page = sorted_pages[1] %}
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
@@ -57,7 +59,7 @@
           </li>
 
 	  <!-- Selected Publications (local) -->
-	  {% if page.selected_papers %}
+	  {% if main_page.selected_papers %}
           <li class="nav-item">
             <a class="nav-link" href="{{ '/#selected_publications' | relative_url }}">
               selected publications
@@ -66,16 +68,16 @@
 	  {% endif %}
 
 	  <!-- Publications (local) -->
-	  {% if page.main_papers %}
+	  {% if main_page.main_papers %}
           <li class="nav-item">
             <a class="nav-link" href="{{ '/#publications' | relative_url }}">
-              publications (local)
+              publications
             </a>
           </li>
 	  {% endif %}
 
-	  <!-- Service -->
-	  {% if page.service %}
+	  <!-- Service (local) -->
+	  {% if main_page.service %}
           <li class="nav-item">
             <a class="nav-link" href="{{ '/#service' | relative_url }}">
               service
@@ -83,11 +85,11 @@
           </li>
 	  {% endif %}
 
-	  <!-- Extra Publications -->
-	  {% if page.extra_papers %}
+	  <!-- Extra Publications (local) -->
+	  {% if main_page.extra_papers %}
           <li class="nav-item">
             <a class="nav-link" href="{{ '/#other_works' | relative_url }}">
-              [...]
+              older works
             </a>
           </li>
 	  {% endif %}
