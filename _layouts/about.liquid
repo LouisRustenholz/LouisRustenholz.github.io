@@ -79,31 +79,37 @@ layout: default
       <div class="publications">
 	{% bibliography %}
       </div>
+      <br/><br/>
     {% endif %}
 
 
     <!-- Service -->
     {% if page.service %}
+      <br/><hr><hr>
       <h2 id="service"> Service </h2>
-      [...]
+      {% capture service_md %} {% include service.md %} {% endcapture %}
+      {{ service_md | markdownify }}
     {% endif %}
 
 
     <!-- Extra and old projects -->
     {% if page.extra_papers %}
+      <br/><hr>
       <h2 id="other_works"> Other Research Projects </h2>
 
-      This section lists some unpublished works, including relatively
-      recent internship reports and student projects (some very old,
-      included for fun!).
+      This section lists some unpublished works.
+      <br/>
+      It contains technical reports, relatively recent internship
+      reports, but also older student projects, included for fun!
 
       <div class="publications">
-	{% bibliography --file extra_works %}
+	{% bibliography  --group_by none --file extra_works %}
       </div>
     {% endif %}
 
     <!-- Teaching -->
     {% if page.teaching %}
+      <hr>
       <h2 id="teaching"> Teaching </h2>
 
       [...]
@@ -111,6 +117,7 @@ layout: default
 
     <!-- Outreach -->
     {% if page.outreach %}
+      <hr>
       <h2 id="outreach"> Outreach </h2>
 
       [...]
