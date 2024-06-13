@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Website Under Construction]
+<!-- subtitle: 🚧 Website Under Construction 🚧 -->
 
 profile:
   align: right
@@ -19,8 +19,6 @@ extra_papers: true
 teaching: false
 outreach: false
 ---
-
-## 🚧 Website Under Construction 🚧
 
 I am a PhD student at [IMDEA Software Institute](https://software.imdea.org/) in
 Madrid,
@@ -40,15 +38,21 @@ I am currently involved in a project on **automated inference of energy
 consumption of programs and systems**, with applications in energy
 transparency/audit, energy-aware development, verification and optimisation.
 Among others, it builds upon the [ENTRA project](http://entraproject.ruc.dk/)
-and work performed in the context of
+and analyses designed in the context of
 [CiaoPP](https://ciao-lang.org/ciao/build/doc/ciaopp.html/).
 My current work focuses on new static cost analysis frameworks, aiming
-to take into account more **fine-grained cost models** (e.g. closer to bare
-metal, taking into abstract information on hardware state and other low-level
-properties), as well as uniformly supporting programs displaying diverse
-control-flows.
+to support more **fine-grained cost models** (e.g. closer to bare metal,
+taking into account low-level properties and communicating with hardware
+state abstract domains), as well as handle uniformly multi-paradigm
+programs with diverse and **complex control-flows**.
 
-Outside of this project, I a more broadly interested in (...), and have always
-enjoyed (...).
+Outside of the current focus of my work, I am more broadly interested in
+all aspects of formal methods, programming language research, and
+theoretical computer science. I always enjoy learning new maths, and
+have loved discovering geometric viewpoints on *a priori* non-geometric
+problems at least since my first high school science adventures.
 
-Outside of research, I also enjoy ... (i.e. Animath, and did a few talks w/ the Shift Project on the carbon footprint of IT), ... (climbing...)
+I am also involved in various [outreach activities](/outreach/) of
+mathematics and computer science for high school students, as well as on
+topics related to climate change, carbon regulations, and the
+environmental impact of IT.

@@ -2,11 +2,11 @@
 layout: page
 permalink: /outreach/
 title: outreach
-description: [Under Construction]
+description: 🚧 Under Construction 🚧
 nav: true
 nav_order: 3
 ---
 
-## [Under Construction]
+## 🚧 Website Under Construction 🚧
 
 [...]

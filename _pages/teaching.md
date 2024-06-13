@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: [Under Construction]
+description: 🚧 Under Construction 🚧
 nav: true
 nav_order: 2
 ---
 
-## [Under Construction]
+## 🚧 Website Under Construction 🚧
 
 [...]
