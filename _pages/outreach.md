@@ -45,7 +45,7 @@ involved in the following projects.
 
 ### French Tournament of Young Mathematicians $$(\mathbb{TFJM}^2)$$
 
-The [French Tournament of Young Mathematicians (TFJM)](http://www.tfjm.org/)
+The [French Tournament of Young Mathematicians (TFJM)](https://tfjm.org/)
 is a competition for high school students inspired from mathematical
 research, aiming to stimulate interest in mathematics and its
 applications as well as develop scientific thinking, communication
@@ -85,7 +85,7 @@ Rwanda and taught a one-week course in Ouagadougou, Burkina-Faso.
 
 ### Other activities
 
-+ **International Tournament of Young Mathematicians** ([ITYM](http://www.itym.org/))
++ **International Tournament of Young Mathematicians** ([ITYM](https://www.itym.org/))
 + **Correspondances de Jeunes Mathématicien·ne·s** ([Correspondances](https://correspondances-maths.fr/))
 + **Rendez-vous des Jeunes Mathématiciennes et informaticiennes** ([RJM]( https://filles-et-maths.fr/rendez-vous-des-jeunes-mathematiciennes/))
 + **Parlons Maths**, a daily math stream during the 2020 lockdown in France ([Parlons Maths](https://parlons-maths.fr/))
