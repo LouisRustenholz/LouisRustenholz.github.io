@@ -55,7 +55,7 @@ Participants are given several months to work in teams on open
 problems and write their solutions, before writing reviews on that of
 other teams.
 During the tournaments, the students present their results to a jury
-and criticize the work of other teams during a debate.
+and criticise the work of other teams during a debate.
 
 
 I chaired the national organisation committee of the TFJM in
@@ -81,7 +81,7 @@ week-long training sessions with talks by researchers and olympic or
 research-based competitions.
 
 Before this, I also served as contact point for a programming club in
-Rwanda and taught a one-week course in Ouagadougou, Burkina-Faso.
+Rwanda and taught a one-week course in Ouagadougou, Burkina Faso.
 
 ### Other activities
 
