@@ -58,7 +58,7 @@ young undergraduates. (Unfortunately, they are now archived.)
       Has been applied successfully to <a href="https://superliminal.com/cube/" rel="external nofollow noopener" target="_blank">higher-dimensional cubes</a>!
 	</li></ul>
     </div>
-    <div class="col-md-5 align-items-center">
+    <div class="col-md-5">
         {% assign image_path = 'louis_rustenholz_mooc_1.jpg' | prepend: 'assets/img/' %}
         {%
           include figure.liquid loading="eager" path=image_path class=profile_image_class alt=logo-animath
