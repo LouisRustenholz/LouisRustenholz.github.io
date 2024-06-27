@@ -2,13 +2,21 @@
 ---
 
 
-@online{order-recsolv-tmp,
+@misc{order-recsolv-preprint,
+  abbr={Preprint},
   author={Louis Rustenholz and Pedro López-García and José F.~Morales and Manuel V.~Hermenegildo},
   title =        {{A}n {O}rder {T}heory {F}ramework of {R}ecurrence {E}quations for {S}tatic {C}ost {A}nalysis – {D}ynamic {I}nference of {N}on-{L}inear {I}nequality {I}nvariants},
   institution =  {IMDEA Software Institute and Technical University of Madrid (UPM)},
   year =         2024,
-  month =        {May},
+  month =        {June},
   abstract = {Recurrence equations have played a central role in static cost analysis, where they can be viewed as abstractions of programs and used to infer resource usage information without actually running the programs with concrete data. Such information is typically represented as functions of input data sizes. More generally, recurrence equations have been increasingly used to automatically obtain non-linear numerical invariants. However, state-of-the-art recurrence solvers and cost analysers suffer from serious limitations when dealing with the (complex) features of recurrences arising from cost analyses. We address this challenge by developing a novel order-theoretical framework where recurrences are viewed as operators and their solutions as fixpoints, which allows leveraging powerful pre/postfixpoint search techniques. We prove useful properties and provide principles and insights that enable us to develop techniques and combine them to design new solvers. We have also implemented and experimentally evaluated an optimisation-based instantiation of the proposed approach. The results are quite promising: our prototype outperforms state-of-the-art cost analysers and recurrence solvers, and can infer tight non-linear lower/upper bounds, in a reasonable time, for complex recurrences representing diverse program behaviours.},
+  eprint={2406.18260},
+  archivePrefix={arXiv},
+  primaryClass={cs.PL},
+  arxiv = {2406.18260},
+  url={https://arxiv.org/abs/2406.18260},
+  pdf={https://arxiv.org/pdf/2406.18260},
+  bibtex_show={true},
   note = {Currently under review.}
 }
 
