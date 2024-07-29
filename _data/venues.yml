@@ -9,10 +9,13 @@
   color: "#009f36"
 
 "Book":
-  color: green
+  color: darkorange
 
 "Conference Paper":
   color: light blue
+
+"Journal Paper":
+  color: green
 
 "Internship":
   color: grey
