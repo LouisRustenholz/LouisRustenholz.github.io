@@ -14,6 +14,7 @@
   abstract = {Recurrence equations have played a central role in static cost analysis, where they can be viewed as abstractions of programs and used to infer resource usage information without actually running the programs with concrete data. Such information is typically represented as functions of input data sizes. More generally, recurrence equations have been increasingly used to automatically obtain non-linear numerical invariants. However, state-of-the-art recurrence solvers and cost analysers suffer from serious limitations when dealing with the (complex) features of recurrences arising from cost analyses. We address this challenge by developing a novel order-theoretical framework where recurrences are viewed as operators and their solutions as fixpoints, which allows leveraging powerful pre/postfixpoint search techniques. We prove useful properties and provide principles and insights that enable us to develop techniques and combine them to design new solvers. We have also implemented and experimentally evaluated an optimisation-based instantiation of the proposed approach. The results are quite promising: our prototype outperforms state-of-the-art cost analysers and recurrence solvers, and can infer tight non-linear lower/upper bounds, in a reasonable time, for complex recurrences representing diverse program behaviours.},
   arxiv = {2406.18260},
   pdf={https://cliplab.org/papers/order-recsolv-sas24.pdf},
+  slides={order_recsolv_slides_sas24.pdf},
   bibtex_show={true},
   code = {https://zenodo.org/records/13133801},
   paper_presentation_city    = {Pasadena, CA},
@@ -58,6 +59,7 @@
    arxiv={2108.00893},
    video={https://www.youtube.com/watch?v=O9DXz_p2RI8},
    video2={https://www.youtube.com/watch?v=ZqHVQvKkUHw},
+   slides={slidesSAS22_relunn_trop.pdf},
    bibtex_show={true},
    abstract="This paper studies the problem of range analysis for feedforward neural networks, which is a basic primitive for applications such as robustness of neural networks, compliance to specifications and reachability analysis of neural-network feedback systems. Our approach focuses on ReLU (rectified linear unit) feedforward neural nets that present specific difficulties: approaches that exploit derivatives do not apply in general, the number of patterns of neuron activations can be quite large even for small networks, and convex approximations are generally too coarse. In this paper, we employ set-based methods and abstract interpretation that have been very successful in coping with similar difficulties in classical program verification. We present an approach that abstracts ReLU feedforward neural networks using tropical polyhedra. We show that tropical polyhedra can efficiently abstract ReLU activation function, while being able to control the loss of precision due to linear computations. We show how the connection between ReLU networks and tropical rational functions can provide approaches for range analysis of ReLU neural networks. We report on a preliminary evaluation of our approach using a prototype implementation.",
    isbn="978-3-030-88806-0"
@@ -78,5 +80,8 @@
   html = {https://www.editions-ellipses.fr/accueil/13716-lequation-aux-s-unites-voyage-geometrique-en-theorie-des-nombres-9782340056701.html},
   isbn = {9782340056701},
   note = {Book version of a project on Geometrical and Algebraic Number Theory},
-  supervisornote = {Preface by Diego Izquierdo}
+  supervisornote = {Preface by Diego Izquierdo},
+  bibtex_show={true},
+  abstract={Le charme de l'arithmétique vient de la simplicité de ses énoncés jointe à la difficulté de ses preuves. L'équation aux S-unités consiste à trouver les solutions de l'égalité x + y = 1, où x et y sont des nombres entiers dont on a fixé les facteurs premiers. Combien de solutions a-t-elle ? Malgré son apparence élémentaire, cette question fait appel à plusieurs siècles de développement où se sont entrecroisés algèbre, géométrie et analyse. Ce sera finalement dans un article fondateur de 1996 que l'approche audacieuse des mathématiciens Beukers et Schlickewei permettra d'obtenir une réponse.<br/><br/>
+Dans cet ouvrage, on se propose d'expliquer pas à pas cette fascinante démonstration pour permettre au plus grand nombre de s'approprier les idées qui l'animent. Au cours de cette élucidation, qui constitue le fil rouge du texte, le lecteur découvrira les notions clés qui ont jalonné l'histoire de l'étude des nombres, de Diophante à nos jours. Les outils et concepts fondamentaux de l'arithmétique seront exposés progressivement, avec des exemples qui serviront à les motiver. En plus d'introduire toutes les notions classiques, comme les anneaux de Dedekind, les corps p-adiques, ou encore la théorie des hauteurs, ce livre a vocation à présenter les grands mouvements qui ont forgé la théorie des nombres modernes. Il s'adresse donc à tous ceux, étudiants en troisième année de licence ou curieux de mathématiques, qui veulent découvrir cette discipline telle qu'elle se pratique de nos jours.}
 }
