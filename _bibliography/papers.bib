@@ -21,20 +21,18 @@
   paper_presentation_country = {USA}
 }
 
-@misc{mlrec-tplp2024-preprint,
+@article{mlrec-tplp2024,
   abbr={Journal Article},
   title={{A} {M}achine {L}earning-based {A}pproach for {S}olving {R}ecurrence {R}elations and its use in {C}ost {A}nalysis of {L}ogic {P}rograms},
   author={Louis Rustenholz and Maximiliano Klemen and Miguel Ángel Carreira-Perpiñán and Pedro López-García},
   year={2024},
-  month={May},
-  eprint={2405.06972},
-  archivePrefix={arXiv},
-  primaryClass={cs.PL},
-  url={https://arxiv.org/abs/2405.06972},
+  journal={TPLP},
+  month={},
+  doi={10.1017/S1471068424000413},
+  html={https://doi.org/10.1017/S1471068424000413},
   pdf={https://arxiv.org/pdf/2405.06972},
   arxiv={2405.06972},
   bibtex_show={true},
-  note={Accepted for publication in {TPLP} (preprint below).},
   abstract={Automatic static cost analysis infers information about the resources used by programs without actually running them with concrete data, and presents such information as functions of input data sizes. Most of the analysis tools for logic programs (and many for other languages), as CiaoPP, are based on setting up recurrence relations representing (bounds on) the computational cost of predicates, and solving them to find closed-form functions. Such recurrence solving is a bottleneck in current tools: many of the recurrences that arise during the analysis cannot be solved with state-of-the-art solvers, including Computer Algebra Systems (CASs), so that specific methods for different classes of recurrences need to be developed. We address such a challenge by developing a novel, general approach for solving arbitrary, constrained recurrence relations, that uses machine-learning (sparse-linear and symbolic) regression techniques to guess a candidate closed-form function, and a combination of an SMT-solver and a CAS to check if it is actually a solution of the recurrence. Our prototype implementation and its experimental evaluation within the context of the CiaoPP system show quite promising results. Overall, for the considered benchmarks, our approach outperforms state-of-the-art cost analyzers and recurrence solvers, and solves recurrences that cannot be solved by them.}
 }
 
