@@ -66,7 +66,7 @@
   August 2021 -
   [slides](https://cliplab.org/papers/rustenholz-mmsd-cat-vi-slides.pdf)
 
-- *Qualitative properties of Markov Chain* <br/>
+- *Qualitative properties of Markov Chains* <br/>
   **Model Checking Reading Group** -
   ERATO MMSD, National Institute of Informatics, Tokyo, Japan  -
   July 2021 -
