@@ -4,9 +4,20 @@ permalink: /teaching/
 title: teaching
 <!-- description: 🚧 Under Construction 🚧 -->
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
+---
+
+## Graduate
+
+#### Co-supervision of master students
+
+I co-supervised the following master theses.
+
++ *Improvements to the Auxiliary Analyses for Cost Analysis*,
+  [Félix Ridoux](https://felixridoux.github.io/me/),
+  2024
 
 ___
 

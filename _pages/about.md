@@ -15,7 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 main_papers: true
 service: true
-extra_papers: true
+talks: false
+extra_papers: false
 teaching: false
 outreach: false
 ---
