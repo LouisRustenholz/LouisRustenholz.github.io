@@ -114,6 +114,13 @@ layout: default
       </div>
     {% endif %}
 
+    {% if page.extra_papers_link %}
+      <br/><hr>
+      <h2 id="other_works"> Other Research Projects </h2>
+
+      C.f. <a href="{{ '/other_works/' | relative_url }}" style="color: link">the dedicated page</a> for technical reports, theses, and some older unpublished works.
+    {% endif %}
+
     <!-- Teaching -->
     {% if page.teaching %}
       <hr>

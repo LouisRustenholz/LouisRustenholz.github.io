@@ -1,4 +1,5 @@
 
+### 2025 --
 
 - *Prédiction de bornes paramétriques de consommation énergétique <br/>
   Point de vue et perspectives de l'interprétation abstraite* <br/>
@@ -13,12 +14,16 @@
   February 2025 -
   [slides](/assets/pdf/plis06Feb25-louisrustenholz-intro-given.pdf)
 
+### 2024
+
 - *An Order Theory Framework of Recurrence Equations for Static Cost Analysis <br/>
   Dynamic Inference of Non-Linear Inequality Invariants* <br/>
   [**SAS'24**](https://2024.splashcon.org/home/sas-2024) -
   Pasadena (CA), USA -
   October 2024 -
   [slides](/assets/pdf/order_recsolv_slides_sas24.pdf)
+
+### 2023
 
 - *Teach the Shift* <br/>
   **Otoño Verde 2023** -
@@ -36,7 +41,7 @@
 - *Un peu de mathématiques en physique, et autres géométries inattendues* <br/>
   **Stage Malgache des Jeunes Mathématiciennes et Mathématiciens** -
   Université de Fianrantsoa, Madagascar -
-  Avril 2023 -
+  April 2023 -
   [slides](/assets/pdf/Conference_Fianarantsoa_stage_avril_23.pdf)
 
 - *Teach the Shift -- Climat et Numérique* <br/>
@@ -45,6 +50,8 @@
   March 2023 -
   [slides](/assets/pdf/Presentation_TTS_extrait_numerique_24_03_23.pdf) -
   [link](https://www.lfmadrid.net/es/e3d/3588-conf%C3%A9rence-sur-le-climat-et-les-enjeux-actuels-du-num%C3%A9rique-r%C3%A9alis%C3%A9e-par-l%E2%80%99association-les-shifters)
+
+### 2022
 
 - *Static Analysis of ReLU Neural Networks with Tropical Polyhedra* <br/>
   [**SPLASH'22**](https://2022.splashcon.org/track/splash-2022-sigplan-papers#program) -
@@ -58,6 +65,8 @@
   Université de Paris, Paris, France -
   August 2022 -
   [slides](/assets/pdf/MPRI_Internship__Slides__Louis_Rustenholz.pdf)
+
+### 2020 -- 2021
 
 - *Categories and Preorders in Value Iteration <br/>
   Fixed Points and Surrogate Models* <br/>

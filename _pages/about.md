@@ -17,6 +17,7 @@ main_papers: true
 service: true
 talks: false
 extra_papers: false
+extra_papers_link: true
 teaching: false
 outreach: false
 ---
