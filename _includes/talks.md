@@ -5,7 +5,8 @@
   Point de vue et perspectives de l'interprétation abstraite* <br/>
   [**GreenDays'25**](https://greendays.sciencesconf.org) -
   IRISA, Rennes, France -
-  March 2025
+  March 2025 -
+  [slides](/assets/pdf/staticanalysis-for-greendays-25.pdf)
 
 - *Research Introduction <br/>
   Static Cost Analysis, Energy, and Interval Recurrence Equations* <br/>
