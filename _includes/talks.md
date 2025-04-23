@@ -1,12 +1,18 @@
 
 ### 2025 --
 
+- *Abstractions of Sequences, Functions and Operators* <br/>
+  [**CSV'25**](https://unive-ssv.github.io/events/2025/06/05/csv.html) -
+  Venice, Italy -
+  June 2025
+
 - *Prédiction de bornes paramétriques de consommation énergétique <br/>
   Point de vue et perspectives de l'interprétation abstraite* <br/>
   [**GreenDays'25**](https://greendays.sciencesconf.org) -
   IRISA, Rennes, France -
   March 2025 -
-  [slides](/assets/pdf/staticanalysis-for-greendays-25.pdf)
+  [slides](/assets/pdf/staticanalysis-for-greendays-25.pdf) -
+  [video](https://www.canal-u.tv/chaines/greendays/session-logiciel-louis-rustenholz-prediction-de-bornes-parametriques-de)
 
 - *Research Introduction <br/>
   Static Cost Analysis, Energy, and Interval Recurrence Equations* <br/>
@@ -22,7 +28,8 @@
   [**SAS'24**](https://2024.splashcon.org/home/sas-2024) -
   Pasadena (CA), USA -
   October 2024 -
-  [slides](/assets/pdf/order_recsolv_slides_sas24.pdf)
+  [slides](/assets/pdf/order_recsolv_slides_sas24.pdf) -
+  [video](https://www.youtube.com/live/F6a0SatXWmU?si=J_GfgR8re5bgCG8k&t=10347)
 
 ### 2023
 
