@@ -1,9 +1,15 @@
 
 ### 2025 --
 
+- *Prédiction de bornes paramétriques de consommation énergétique <br/>
+  Point de vue et perspectives de l'interprétation abstraite* <br/>
+  [**Journées Nationales du GDR-GPL (CNRS) 2025**](https://gdrgpl2025.sciencesconf.org/) -
+  UPPA, Pau, France -
+  June 2025
+
 - *Abstractions of Sequences, Functions and Operators* <br/>
   [**CSV'25**](https://unive-ssv.github.io/events/2025/06/05/csv.html) -
-  Venice, Italy -
+  Università Ca' Foscari, Venice, Italy -
   June 2025
 
 - *Prédiction de bornes paramétriques de consommation énergétique <br/>
