@@ -10,7 +10,8 @@
 - *Abstractions of Sequences, Functions and Operators* <br/>
   [**CSV'25**](https://unive-ssv.github.io/events/2025/06/05/csv.html) -
   Università Ca' Foscari, Venice, Italy -
-  June 2025
+  June 2025 -
+  [slides](/assets/pdf/csv25-slides.pdf)
 
 - *Prédiction de bornes paramétriques de consommation énergétique <br/>
   Point de vue et perspectives de l'interprétation abstraite* <br/>
