@@ -1,6 +1,13 @@
 
 ### 2025 --
 
+- *Order Theory of Functional Equations <br/>
+  for static cost analysis, and beyond* <br/>
+  **IMDEA poster event** -
+  IMDEA Software Institute, Madrid, Spain -
+  June 2025 -
+  [poster](/assets/pdf/orderfun-poster-imdea25.pdf)
+
 - *Prédiction de bornes paramétriques de consommation énergétique <br/>
   Point de vue et perspectives de l'interprétation abstraite* <br/>
   [**Journées Nationales du GDR-GPL (CNRS) 2025**](https://gdrgpl2025.sciencesconf.org/) -
