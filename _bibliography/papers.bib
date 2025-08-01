@@ -1,6 +1,54 @@
 ---
 ---
 
+@misc{absfun-preprint,
+  abbr={Journal Article},
+  author={Louis Rustenholz and Pedro Lopez-Garcia and Manuel V. Hermenegildo},
+  title={{A}bstractions of {S}equences, {F}unctions and {O}perators},
+  year={2025},
+  month={July},
+  eprint={2507.23151},
+  archivePrefix={arXiv},
+  abstract = {We present theoretical and practical results on the order theory of lattices of functions, focusing on Galois connections that abstract (sets of) functions – a topic known as higher-order abstract interpretation.
+
+We are motivated by the challenge of inferring closed-form bounds on functions which are defined recursively, i.e. as the fixed point of an operator or, equivalently, as the solution to a functional equation. This has multiple applications in program analysis (e.g. cost analysis, loop acceleration, declarative language analysis) and in hybrid systems governed by differential equations.
+
+Our main contribution is a new family of constraint-based abstract domains for abstracting numerical functions, B-bound domains, which abstract a function f by a conjunction of bounds from a preselected set of boundary functions. They allow inferring highly non-linear numerical invariants, which classical numerical abstract domains struggle with. We uncover a convexity property in the constraint space that simplifies, and, in some cases, fully automates, transfer function design.
+
+
+We also introduce domain abstraction, a functor that lifts arbitrary mappings in value space to Galois connections in function space. This supports abstraction from symbolic to numerical functions (i.e. size abstraction), and enables dimensionality reduction of equations.
+
+
+We base our constructions of transfer functions on a simple operator language, starting with sequences, and extending to more general functions, including multivariate, piecewise, and non-discrete domains.},
+  primaryClass={cs.PL},
+  arxiv={2507.23151},
+  pdf={https://arxiv.org/pdf/2507.23151},
+  slides={csv25-slides.pdf},
+  bibtex_show={true},
+  note={Presented at CSV'25. Under consideration for publication in STTT.}
+}
+
+
+  author={Louis Rustenholz and Pedro López-García and Manuel V.~Hermenegildo},
+  title =        {{A}n {O}rder {T}heory {F}ramework of {R}ecurrence {E}quations for {S}tatic {C}ost {A}nalysis – {D}ynamic {I}nference of {N}on-{L}inear {I}nequality {I}nvariants},
+  booktitle = {Proceedings of the 31st Static Analysis Symposium (SAS 2024)},
+  year      = 2024,
+  month     = {October},
+  publisher = {Springer},
+  series    = {LNCS},
+  volume    = 14995,
+  abstract = {Recurrence equations have played a central role in static cost analysis, where they can be viewed as abstractions of programs and used to infer resource usage information without actually running the programs with concrete data. Such information is typically represented as functions of input data sizes. More generally, recurrence equations have been increasingly used to automatically obtain non-linear numerical invariants. However, state-of-the-art recurrence solvers and cost analysers suffer from serious limitations when dealing with the (complex) features of recurrences arising from cost analyses. We address this challenge by developing a novel order-theoretical framework where recurrences are viewed as operators and their solutions as fixpoints, which allows leveraging powerful pre/postfixpoint search techniques. We prove useful properties and provide principles and insights that enable us to develop techniques and combine them to design new solvers. We have also implemented and experimentally evaluated an optimisation-based instantiation of the proposed approach. The results are quite promising: our prototype outperforms state-of-the-art cost analysers and recurrence solvers, and can infer tight non-linear lower/upper bounds, in a reasonable time, for complex recurrences representing diverse program behaviours.},
+  arxiv = {2406.18260},
+  doi = {10.1007/978-3-031-74776-2_14},
+  video={https://www.youtube.com/live/F6a0SatXWmU?si=J_GfgR8re5bgCG8k&t=10347},
+  pdf={https://cliplab.org/papers/order-recsolv-sas24.pdf},
+  slides={order_recsolv_slides_sas24.pdf},
+  bibtex_show={true},
+  code = {https://zenodo.org/records/13133801},
+  paper_presentation_city    = {Pasadena, CA},
+  paper_presentation_country = {USA}
+}
+
 @InProceedings{order-recsolv-sas24,
   abbr={Conference Paper},
   author={Louis Rustenholz and Pedro López-García and José F.~Morales and Manuel V.~Hermenegildo},
