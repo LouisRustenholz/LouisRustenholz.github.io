@@ -29,7 +29,8 @@ co-advised by
 [Pedro López-García](https://software.imdea.org/people/pedro.lopez/) and [Manuel
 Hermenegildo](https://cliplab.org/herme/). Before this, I was a student at
 [École polytechnique](https://www.polytechnique.edu/), and did a final year at
-the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php).
+the [MPRI](https://mpri-master.ens.fr/doku.php).
+<!-- the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php). -->
 
 My research interests lie in **static analysis**, more generally formal methods
 and *automated* program analyses, and in particular **abstract interpretation**
