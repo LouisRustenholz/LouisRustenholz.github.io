@@ -1,4 +1,5 @@
 
++ [PLDI 2026](https://pldi26.sigplan.org/) Artifact Evaluation Committee
 + [POPL 2026](https://popl26.sigplan.org/) Artifact Evaluation Committee
 + [SAS 2025](https://2025.splashcon.org/home/sas-2025) External Reviewer
 + [PLDI 2025](https://pldi25.sigplan.org/) Artifact Evaluation Committee
