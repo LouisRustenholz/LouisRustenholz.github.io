@@ -1,5 +1,14 @@
 
-### 2025 --
+
+### 2026 ---
+
+- *Towards an Automated Reasoning Tool for Complexity Analysis of Automated Reasoners* <br/>
+  [**WST'26**](https://termination-portal.org/wiki/21st_International_Workshop_on_Termination) -
+  [FLoC'26](https://www.floc26.org/), Lisboa, Portugal -
+  July 2026 -
+  [slides](/assets/pdf/wst26-slides.pdf)
+
+### 2025
 
 - *Order Theory of Functional Equations <br/>
   for static cost analysis, and beyond* <br/>

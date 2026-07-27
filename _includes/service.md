@@ -1,4 +1,5 @@
 
++ [WST 2026](https://termination-portal.org/wiki/21st_International_Workshop_on_Termination) Session Chair
 + [SAS 2026](https://conf.researchr.org/home/splash-issta-2026/sas-2026) Artifact Evaluation Committee
 + [PLDI 2026](https://pldi26.sigplan.org/) Artifact Evaluation Committee
 + [POPL 2026](https://popl26.sigplan.org/) Artifact Evaluation Committee
