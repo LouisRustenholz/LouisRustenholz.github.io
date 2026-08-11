@@ -1,6 +1,56 @@
 ---
 ---
 
+@misc{abscomp26-preprint,
+  abbr={Preprint},
+  title={{Abstract Compilation as Abstraction of Operator Semantics, applied to Cost Analysis}},
+  author={Louis Rustenholz and Alessio Mansutti and Pedro López-García and Félix Ridoux and Niki Vazou and Manuel V. Hermenegildo},
+  year={2026},
+  month={August},
+  archivePrefix={arXiv},
+  eprint={2608.09769},
+  arXiv={2608.09769},
+  pdf={https://arxiv.org/pdf/2608.09769},
+  bibtex_show={true},
+  abstract = {Least fixpoints are fundamental to program semantics, but they abstract away the recursive structure that generated them. We introduce operator semantics: a semantic intermediate representation between syntax and classical denotational semantics, which treats programs as operators. Abstract compilation is then understood as the act of abstracting such operators. We develop higher-order abstract domains for functions, operators, and programs themselves, in which composition is the key novel primitive, together with a categorical framework for constructing sound, precise, and modular abstract compilers. We instantiate this framework in the context of recurrence-based static cost analysis, developing solver-independent, optimal recurrence extraction techniques for recursive programs over algebraic data types, that support general function unknowns and catamorphic metrics, a broad class of size metrics beyond traditional approaches.}
+}
+
+@misc{complexity-tool-wst26,
+  abbr={Extended Abstract},
+  author    = {Louis Rustenholz and Manuel V. Hermenegildo and Pedro Lopez-Garcia and Alessio Mansutti and Félix Ridoux and Niki Vazou},
+  title     = {{T}owards an {A}utomated {R}easoning {T}ool for {C}omplexity {A}nalysis of {A}utomated {R}easoners},
+  year      = {2026},
+  month     = {June},
+  archiveprefix = {arXiv},
+  eprint={2606.23516},
+  arxiv={2606.23516},
+  pdf={https://arxiv.org/pdf/2606.23516},
+  slides={wst26-slides.pdf},
+  bibtex_show={true},
+  abstract = {We present the theory underpinning a complexity analysis tool (under development) that aims at automating tedious parts of the analysis of complex algorithms originating from the field of automated reasoning. Examples are given by super-exponential quantifier elimination procedures in real and integer arithmetics.
+Our tool implements the following pipeline. <br/>
+* Together with the algorithm to be analysed, the user (expert, e.g. the algorithm designer) can provide key metrics to track, and lemmas to improve the analysis. In pen-and-paper proofs, these correspond to the "non-tedious" and "creative" parts of the complexity analysis, that require human ingenuity. <br/>
+* The second step consists in the extraction of (generalised) recurrence equations. Here, we rely on a novel higher-order abstract interpretation technique, built on the concept of operator semantics. It enables (optimal) abstract compilation of symbolic programs to different kinds of purely numerical recursive representations, such as recurrence equations on interval-valued functions or numerical logic programs. <br/>
+* Finally, our tool solves the recurrence equations. We propose to go beyond the direct usage of computer algebra systems (CAS), and use pre/postfixpoint-based techniques to discover and verify candidate bounds on the solution. This approach makes use, in turn, of recent progress in SMT solvers, and can also be improved by techniques originating in termination analysis research.},
+  note={Presented at WST'26 (colocated with FLoC'26).},
+  paper_presentation_city = {Lisboa},
+  paper_presentation_country = {Portugal}
+}
+
+@misc{gallagher2026bigstepsmallstephornclause-preprint,
+  abbr={Preprint},
+  title={{B}ig-step and small-step {H}orn clause derivations applied to operational semantics},
+  author={John P. Gallagher and Manuel Hermenegildo and José Morales and Pedro Lopez-Garcia and Louis Rustenholz},
+  year={2026},
+  month = {June},
+  archivePrefix={arXiv},
+  eprint={2606.20944},
+  arXiv={2606.20944},
+  pdf={https://arxiv.org/pdf/2606.20944},
+  bibtex_show={true},
+  abstract = {The concepts of big-step and small-step derivations are familiar from the operational semantics of programming languages. These concepts are applicable in the more general setting of Horn clause derivations. We prove equivalence between big-step derivations and two versions of small-step derivations for Horn clauses. By specialising interpreters for these derivation strategies, any set of Horn clauses can be transformed into a provably equivalent set of clauses that inherits the behaviour of a given (big- or small-step) Horn clause interpreter. As a special case of this transformation, big-step semantics for any programming language, expressed directly as Horn clauses, can be transformed into equivalent small-step semantics. Experiments with a variety of programming languages are reported.}
+}
+
 @article{absfun-sttt26,
   abbr={Journal Article},
   author={Louis Rustenholz and Pedro Lopez-Garcia and Manuel V. Hermenegildo},
@@ -19,13 +69,14 @@ We also introduce domain abstraction, a functor that lifts arbitrary mappings in
 
 
 We base our constructions of transfer functions on a simple operator language, starting with sequences, and extending to more general functions, including multivariate, piecewise, and non-discrete domains.},
+  eprint={2507.23151},
   arxiv={2507.23151},
   doi={10.1007/s10009-026-00843-3},
   html={https://link.springer.com/article/10.1007/s10009-026-00843-3},
   pdf={https://link.springer.com/content/pdf/10.1007/s10009-026-00843-3.pdf},
   slides={csv25-slides.pdf},
   bibtex_show={true},
-  note={Presented at CSV'25.}
+  note={Presented at CSV'25.},
 }
 
 @InProceedings{order-recsolv-sas24,
@@ -42,7 +93,7 @@ We base our constructions of transfer functions on a simple operator language, s
   arxiv = {2406.18260},
   doi = {10.1007/978-3-031-74776-2_14},
   video={https://www.youtube.com/live/F6a0SatXWmU?si=J_GfgR8re5bgCG8k&t=10347},
-  pdf={https://cliplab.org/papers/order-recsolv-sas24.pdf},
+  pdf={https://arxiv.org/pdf/2406.18260},
   slides={order_recsolv_slides_sas24.pdf},
   bibtex_show={true},
   code = {https://zenodo.org/records/13133801},
